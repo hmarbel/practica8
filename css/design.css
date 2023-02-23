@@ -1,0 +1,185 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #262626;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+header,
+footer {
+  background-color: #262626;
+  color: white;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  clear: both;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
+
+nav {
+  margin: 0px;
+  height: 35px;
+  background-color: #1f1f1f;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin: 0px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:active,
+nav ul li a:visited,
+nav ul li a:link {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #a67a4d;
+}
+
+#content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+#content aside {
+  float: left;
+  width: 25%;
+  background-color: #292929;
+}
+
+#content aside a figure img {
+    width: 35px;
+  }
+
+#content #cv,
+#content #fv {
+  padding: 10px;
+}
+
+#cv div {
+  border-radius: 12px;
+}
+
+#cv h3 {
+  color: white;
+  text-align: center;
+}
+
+#introduction {
+  background-color: #2c2b29;
+  padding: 5px 10px;
+}
+
+#introduction video {
+  border-radius: 12px;
+}
+
+#location {
+  background-color: #2c2b29;
+  padding: 10px;
+}
+
+#location iframe {
+  border-radius: 12px;
+}
+
+#info {
+  background-color: #2c2b29;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#subinfo {
+  background-color: #2c2b29;
+  padding: 10px;
+}
+
+#subinfo h4 {
+  color: firebrick;
+  margin-top: 5px;
+}
+
+#subinfo h5 {
+  color: gray;
+  margin-top: 5px;
+}
+
+#subinfo p {
+  color: darkgrey;
+  margin-top: -15px;
+}
+
+#fv #materias {
+  background-color: #2c2b29;
+  max-width: 100%;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  padding: 10px 0px;
+}
+
+#fv p {
+  color: #9c9ea2;
+  margin-top: -20px;
+}
+
+#li1 {
+  color: #e06c75;
+}
+
+#li2 {
+  color: #98c379;
+}
+
+#li3 {
+  color: #43a3ef;
+}
+
+#li4 {
+  color: #d19a66;
+}
+
+#li5 {
+  color: #a074c4;
+}
+
+.articleTitle {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #A67A4D;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }

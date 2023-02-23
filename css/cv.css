@@ -1,0 +1,64 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+
+    background-color: rgb(53, 63, 73);
+    font-family: "Montserrat", sans-serif;
+  }
+
+  div {
+    border-radius: 12px;
+    margin: 5px;
+  }
+
+  h3 {
+    color: white;
+    text-align: center;
+  }
+
+  #introduction {
+    background-color: rgb(41, 47, 53);
+    padding: 5px 10px;
+  }
+
+  #introduction video {
+    border-radius: 12px;
+  }
+
+  #location {
+    background-color: rgb(41, 47, 53);
+    padding: 10px;
+  }
+
+  #location iframe {
+    border-radius: 12px;
+  }
+
+  #info {
+    background-color: rgb(41, 47, 53);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #subinfo {
+    background-color: rgb(28, 33, 37);
+    padding: 10px;
+  }
+
+  #subinfo h4 {
+    color: firebrick;
+    margin-top: 5px;
+  }
+
+  #subinfo h5 {
+    color: gray;
+    margin-top: 5px;
+  }
+
+  #subinfo p {
+    color: darkgrey;
+    margin-top: -15px;
+  }
